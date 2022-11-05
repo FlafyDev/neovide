@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Neovide - Neovide</title>
+        <title>Troubleshooting - Neovide</title>
         <!-- Custom HTML head -->
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="A Simple, No Nonsense, Cross-Platform, Graphical User Interface for Neovim">
@@ -78,7 +78,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html" class="active">Neovide</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="features.html"><strong aria-hidden="true">1.</strong> Features</a></li><li class="chapter-item expanded "><a href="installation.html"><strong aria-hidden="true">2.</strong> Installation</a></li><li class="chapter-item expanded "><a href="configuration.html"><strong aria-hidden="true">3.</strong> Configuration</a></li><li class="chapter-item expanded "><a href="command-line-reference.html"><strong aria-hidden="true">4.</strong> Command Line Reference</a></li><li class="chapter-item expanded "><a href="editing-with-external-tools.html"><strong aria-hidden="true">5.</strong> Editing w/ External Tools</a></li><li class="chapter-item expanded "><a href="troubleshooting.html"><strong aria-hidden="true">6.</strong> Troubleshooting</a></li><li class="chapter-item expanded "><a href="faq.html"><strong aria-hidden="true">7.</strong> FAQ</a></li><li class="chapter-item expanded "><a href="maintainer-cookbook.html"><strong aria-hidden="true">8.</strong> Maintainer Cookbook</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Neovide</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="features.html"><strong aria-hidden="true">1.</strong> Features</a></li><li class="chapter-item expanded "><a href="installation.html"><strong aria-hidden="true">2.</strong> Installation</a></li><li class="chapter-item expanded "><a href="configuration.html"><strong aria-hidden="true">3.</strong> Configuration</a></li><li class="chapter-item expanded "><a href="command-line-reference.html"><strong aria-hidden="true">4.</strong> Command Line Reference</a></li><li class="chapter-item expanded "><a href="editing-with-external-tools.html"><strong aria-hidden="true">5.</strong> Editing w/ External Tools</a></li><li class="chapter-item expanded "><a href="troubleshooting.html" class="active"><strong aria-hidden="true">6.</strong> Troubleshooting</a></li><li class="chapter-item expanded "><a href="faq.html"><strong aria-hidden="true">7.</strong> FAQ</a></li><li class="chapter-item expanded "><a href="maintainer-cookbook.html"><strong aria-hidden="true">8.</strong> Maintainer Cookbook</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -116,7 +116,7 @@
                         <a href="https://github.com/neovide/neovide" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
-                        <a href="https://github.com/neovide/neovide/edit/main/website/docs/index.md" title="Suggest an edit" aria-label="Suggest an edit">
+                        <a href="https://github.com/neovide/neovide/edit/main/website/docs/troubleshooting.md" title="Suggest an edit" aria-label="Suggest an edit">
                             <i id="git-edit-button" class="fa fa-edit"></i>
                         </a>
                     </div>
@@ -143,68 +143,49 @@
 
                 <div id="content" class="content">
                     <main><div class="sidetoc"><nav class="pagetoc"></nav></div>
-                        <div class="show-mobile">
-    <h1>
-        <img class="logo" src="assets/neovide-128x128.png" alt="Neovide Logo">
-        Neovide
-    </h1>
-    <a href="https://discord.gg/SjFpZdQys6">
-        <img src="https://badgen.net/badge/icon/discord?icon=discord&label" alt="Discord">
-    </a>
-    <a href="https://matrix.to/#/#neovide_community:gitter.im">
-        <img src="https://matrix.to/img/matrix-badge.svg" alt="Chat On Matrix">
-    </a>
-    <a href="https://github.com/neovide/neovide/discussions">
-        <img src="https://img.shields.io/badge/GitHub-Discussions-green?logo=github" alt="Discussions">
-    </a>
-</div>
-<div class="hide-mobile">
-    <h1>Neovide
-        <a href="https://discord.gg/SjFpZdQys6">
-            <img src="https://badgen.net/badge/icon/discord?icon=discord&label" alt="Discord">
-        </a>
-        <a href="https://matrix.to/#/#neovide_community:gitter.im">
-            <img src="https://matrix.to/img/matrix-badge.svg" alt="Chat On Matrix">
-        </a>
-        <a href="https://github.com/neovide/neovide/discussions">
-            <img src="https://img.shields.io/badge/GitHub-Discussions-green?logo=github" alt="Discussions">
-        </a>
-    </h1>
-</div>
-<div class="hide-mobile">
-    <img class="logo" src="assets/neovide-128x128.png" alt="Neovide Logo">
-</div>
-<p>This is a simple, no-nonsense, cross-platform graphical user interface for
-<a href="https://github.com/neovim/neovim">Neovim</a> (an aggressively refactored and updated Vim editor).
-Where possible there are some graphical improvements, but functionally it should act like the
-terminal UI.</p>
-<div class="hide-mobile">
-    <a href="https://github.com/neovide/neovide/releases/latest/download/Neovide.dmg.zip">
-        <button class="button-hover color">Download for macOS</button>
-    </a>
-    <a href="https://github.com/neovide/neovide/releases/latest/download/neovide-windows.zip">
-        <button class="button-hover color">Download for Windows</button>
-    </a>
-    <a href="https://github.com/neovide/neovide/releases/latest/download/neovide.tar.gz">
-        <button class="button-hover color">Download for Linux</button>
-    </a>
-</div>
-<p>If you're looking for the Neovide source code, that can be found
-<a href="https://github.com/neovide/neovide">here</a>. To search within the docs, you can simply press <code>s</code> or
-click the magnifying glass icon in the top left to bring up the search bar.</p>
-<p>Installing through a package manager or building from source? <a href="installation.html">no problem!</a></p>
-<p>Want to see a list of all the available features? <a href="features.html">here you go!</a></p>
-<p>Looking to configure your neovide? <a href="configuration.html">we've got you covered!</a></p>
-<div class="center">
-    <img class="screenshot" src="assets/BasicScreenCap.png" alt="Screenshot of Neovide">
-    <p class="text" ><em>Screenshot of Neovide running on Windows<em></p>
-</div>
+                        <h1 id="troubleshooting"><a class="header" href="#troubleshooting">Troubleshooting</a></h1>
+<ul>
+<li>
+<p>Should Neovide happen not to start at all, check the following:</p>
+<ul>
+<li>
+<p>if you're using zsh <code>~/.zshenv</code>, <code>~/.zprofile</code> and  <code>~/.zlogin</code>, or whatever the equivalent for
+your shell is if anything emits output during shell startup, since Neovide uses your shell to
+find <code>nvim</code>. You can instead use <code>~/.zshrc</code>.</p>
+</li>
+<li>
+<p>whether you can reproduce this by running from the latest git main commit.
+This can be done by running from source or just grabbing the binary from the <a href="https://github.com/neovide/neovide/actions/workflows/build.yml"><code>Actions</code> tab on
+GitHub</a>.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Neovide requires that a font be set in <code>init.vim</code> otherwise errors might be encountered. This can
+be fixed by adding <code>set guifont=Your\ Font\ Name:h15</code> in init.vim file. Reference issue
+<a href="https://github.com/neovide/neovide/issues/527">#527</a>.</p>
+</li>
+<li>
+<p>If you installed <code>neovim</code> via Apple Silicon (M1)-based <code>brew</code>, you have to add the <code>brew prefix</code>
+to <code>$PATH</code> to run <code>Neovide.app</code> in GUI. Please see the
+<a href="https://docs.brew.sh/FAQ#my-mac-apps-dont-find-homebrew-utilities">homebrew documentation</a>.
+Reference issue <a href="https://github.com/neovide/neovide/pull/1242">#1242</a></p>
+</li>
+</ul>
+<h2 id="linux"><a class="header" href="#linux">Linux</a></h2>
+<ul>
+<li>If you recieve errors complaining about DRI3 settings, please reference issue
+<a href="https://github.com/neovide/neovide/issues/44#issuecomment-578618052">#44</a>.</li>
+</ul>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="next" href="features.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="prev" href="editing-with-external-tools.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="faq.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         <div style="clear: both"></div>
@@ -213,7 +194,10 @@ click the magnifying glass icon in the top left to bring up the search bar.</p>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="next" href="features.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="prev" href="editing-with-external-tools.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="faq.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>

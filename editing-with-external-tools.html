@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Neovide - Neovide</title>
+        <title>Editing w/ External Tools - Neovide</title>
         <!-- Custom HTML head -->
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="A Simple, No Nonsense, Cross-Platform, Graphical User Interface for Neovim">
@@ -78,7 +78,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html" class="active">Neovide</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="features.html"><strong aria-hidden="true">1.</strong> Features</a></li><li class="chapter-item expanded "><a href="installation.html"><strong aria-hidden="true">2.</strong> Installation</a></li><li class="chapter-item expanded "><a href="configuration.html"><strong aria-hidden="true">3.</strong> Configuration</a></li><li class="chapter-item expanded "><a href="command-line-reference.html"><strong aria-hidden="true">4.</strong> Command Line Reference</a></li><li class="chapter-item expanded "><a href="editing-with-external-tools.html"><strong aria-hidden="true">5.</strong> Editing w/ External Tools</a></li><li class="chapter-item expanded "><a href="troubleshooting.html"><strong aria-hidden="true">6.</strong> Troubleshooting</a></li><li class="chapter-item expanded "><a href="faq.html"><strong aria-hidden="true">7.</strong> FAQ</a></li><li class="chapter-item expanded "><a href="maintainer-cookbook.html"><strong aria-hidden="true">8.</strong> Maintainer Cookbook</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Neovide</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="features.html"><strong aria-hidden="true">1.</strong> Features</a></li><li class="chapter-item expanded "><a href="installation.html"><strong aria-hidden="true">2.</strong> Installation</a></li><li class="chapter-item expanded "><a href="configuration.html"><strong aria-hidden="true">3.</strong> Configuration</a></li><li class="chapter-item expanded "><a href="command-line-reference.html"><strong aria-hidden="true">4.</strong> Command Line Reference</a></li><li class="chapter-item expanded "><a href="editing-with-external-tools.html" class="active"><strong aria-hidden="true">5.</strong> Editing w/ External Tools</a></li><li class="chapter-item expanded "><a href="troubleshooting.html"><strong aria-hidden="true">6.</strong> Troubleshooting</a></li><li class="chapter-item expanded "><a href="faq.html"><strong aria-hidden="true">7.</strong> FAQ</a></li><li class="chapter-item expanded "><a href="maintainer-cookbook.html"><strong aria-hidden="true">8.</strong> Maintainer Cookbook</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -116,7 +116,7 @@
                         <a href="https://github.com/neovide/neovide" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
-                        <a href="https://github.com/neovide/neovide/edit/main/website/docs/index.md" title="Suggest an edit" aria-label="Suggest an edit">
+                        <a href="https://github.com/neovide/neovide/edit/main/website/docs/editing-with-external-tools.md" title="Suggest an edit" aria-label="Suggest an edit">
                             <i id="git-edit-button" class="fa fa-edit"></i>
                         </a>
                     </div>
@@ -143,68 +143,26 @@
 
                 <div id="content" class="content">
                     <main><div class="sidetoc"><nav class="pagetoc"></nav></div>
-                        <div class="show-mobile">
-    <h1>
-        <img class="logo" src="assets/neovide-128x128.png" alt="Neovide Logo">
-        Neovide
-    </h1>
-    <a href="https://discord.gg/SjFpZdQys6">
-        <img src="https://badgen.net/badge/icon/discord?icon=discord&label" alt="Discord">
-    </a>
-    <a href="https://matrix.to/#/#neovide_community:gitter.im">
-        <img src="https://matrix.to/img/matrix-badge.svg" alt="Chat On Matrix">
-    </a>
-    <a href="https://github.com/neovide/neovide/discussions">
-        <img src="https://img.shields.io/badge/GitHub-Discussions-green?logo=github" alt="Discussions">
-    </a>
-</div>
-<div class="hide-mobile">
-    <h1>Neovide
-        <a href="https://discord.gg/SjFpZdQys6">
-            <img src="https://badgen.net/badge/icon/discord?icon=discord&label" alt="Discord">
-        </a>
-        <a href="https://matrix.to/#/#neovide_community:gitter.im">
-            <img src="https://matrix.to/img/matrix-badge.svg" alt="Chat On Matrix">
-        </a>
-        <a href="https://github.com/neovide/neovide/discussions">
-            <img src="https://img.shields.io/badge/GitHub-Discussions-green?logo=github" alt="Discussions">
-        </a>
-    </h1>
-</div>
-<div class="hide-mobile">
-    <img class="logo" src="assets/neovide-128x128.png" alt="Neovide Logo">
-</div>
-<p>This is a simple, no-nonsense, cross-platform graphical user interface for
-<a href="https://github.com/neovim/neovim">Neovim</a> (an aggressively refactored and updated Vim editor).
-Where possible there are some graphical improvements, but functionally it should act like the
-terminal UI.</p>
-<div class="hide-mobile">
-    <a href="https://github.com/neovide/neovide/releases/latest/download/Neovide.dmg.zip">
-        <button class="button-hover color">Download for macOS</button>
-    </a>
-    <a href="https://github.com/neovide/neovide/releases/latest/download/neovide-windows.zip">
-        <button class="button-hover color">Download for Windows</button>
-    </a>
-    <a href="https://github.com/neovide/neovide/releases/latest/download/neovide.tar.gz">
-        <button class="button-hover color">Download for Linux</button>
-    </a>
-</div>
-<p>If you're looking for the Neovide source code, that can be found
-<a href="https://github.com/neovide/neovide">here</a>. To search within the docs, you can simply press <code>s</code> or
-click the magnifying glass icon in the top left to bring up the search bar.</p>
-<p>Installing through a package manager or building from source? <a href="installation.html">no problem!</a></p>
-<p>Want to see a list of all the available features? <a href="features.html">here you go!</a></p>
-<p>Looking to configure your neovide? <a href="configuration.html">we've got you covered!</a></p>
-<div class="center">
-    <img class="screenshot" src="assets/BasicScreenCap.png" alt="Screenshot of Neovide">
-    <p class="text" ><em>Screenshot of Neovide running on Windows<em></p>
-</div>
+                        <h1 id="editing-w-external-tools"><a class="header" href="#editing-w-external-tools">Editing w/ External Tools</a></h1>
+<p>You can use Neovide in other programs as editor, this page aims to document some quirks. Support for
+that, however, is only possible as far as reasonably debuggable.</p>
+<p><em>Note: We do not endorse nor disrecommend usage of all programs listed here. All usage happens on
+your own responsibility.</em></p>
+<h2 id="jrnl"><a class="header" href="#jrnl"><a href="https://github.com/jrnl-org/jrnl">jrnl</a></a></h2>
+<p>In your configuration file:</p>
+<pre><code class="language-yaml">editor: &quot;neovide --nofork&quot;
+</code></pre>
+<p>...as <code>jrnl</code> saves &amp; removes the temporary file as soon as the main process exits, which happens
+before startup by <a href="https://en.wikipedia.org/wiki/Fork_(system_call)">forking</a>.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="next" href="features.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="prev" href="command-line-reference.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="troubleshooting.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         <div style="clear: both"></div>
@@ -213,7 +171,10 @@ click the magnifying glass icon in the top left to bring up the search bar.</p>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="next" href="features.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="prev" href="command-line-reference.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="troubleshooting.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
